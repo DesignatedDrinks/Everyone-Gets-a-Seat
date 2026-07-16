@@ -23,12 +23,18 @@
       <span class="home-stool-leg home-stool-leg-right" aria-hidden="true"></span>
       <span class="home-stool-bar" aria-hidden="true"></span>
     </a>
-    <nav aria-label="Main navigation">
+
+    <nav id="site-navigation" aria-label="Main navigation">
       <a href="#about">The book</a>
       <a href="#authors">The authors</a>
       <a href="#speaking">Speaking</a>
+      <a class="mobile-nav-cta" href="#get-the-book">Get the book</a>
     </nav>
-    <a class="button button-small" href="#get-the-book">Get the book</a>
+
+    <button class="menu-toggle" type="button" aria-controls="site-navigation" aria-expanded="false" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+    <a class="button button-small header-book-button" href="#get-the-book">Get the book</a>
   </header>
 
   <main id="top">
@@ -45,7 +51,7 @@
         <p class="availability">The Amazon paperback and Kindle links will be added when the book is live.</p>
       </div>
       <div class="cover-stage">
-        <img id="book-cover-image" class="book-cover-image" alt="Everyone Gets a Seat book cover by Mike Norris and Kristen Norris" width="720" height="1152">
+        <img id="book-cover-image" class="book-cover-image" src="assets/book-cover.jpg" alt="Everyone Gets a Seat book cover by Mike Norris and Kristen Norris" width="720" height="1152">
       </div>
     </section>
 
@@ -91,6 +97,9 @@
           <a class="text-link" href="https://designateddrinks.ca" rel="noopener">Visit Designated Drinks <span aria-hidden="true">→</span></a>
         </div>
       </div>
+      <figure class="authors-photo">
+        <img id="authors-photo-image" src="assets/authors-photo.jpg" alt="Kristen and Mike Norris seated together at a table" width="1000" height="667" loading="lazy">
+      </figure>
     </section>
 
     <section id="speaking" class="speaking">
