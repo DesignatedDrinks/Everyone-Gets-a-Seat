@@ -26,6 +26,10 @@ nav a:hover, .text-link:hover { color: var(--gold); }
 .button-small { min-height: 42px; padding: 0 18px; }
 .button-light { background: var(--cream); color: var(--ink); border-color: var(--cream); }
 .button-light:hover { background: var(--white); }
+.button-amazon { background: var(--gold); color: var(--ink); border-color: var(--gold); }
+.button-amazon:hover { background: #e3b451; }
+.button.is-disabled { cursor: not-allowed; opacity: .72; }
+.button.is-disabled:hover { transform: none; background: var(--gold); }
 .text-link { font-weight: 700; text-decoration: none; font-size: .9rem; }
 .hero { min-height: 760px; display: grid; grid-template-columns: 1.02fr .98fr; align-items: center; gap: clamp(50px, 8vw, 120px); padding-block: 80px 100px; }
 .eyebrow, .section-kicker { margin: 0 0 22px; color: var(--gold); font-size: .75rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
@@ -79,6 +83,7 @@ blockquote cite { color: var(--gold); font-style: normal; font-size: .75rem; fon
 .final-cta { text-align: center; padding-block: 130px; }
 .final-cta h2 { max-width: 850px; margin-inline: auto; }
 .final-cta > p:not(.eyebrow) { max-width: 620px; margin: 0 auto 32px; color: var(--muted); }
+.final-actions { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 22px; }
 .chair-mark { position: relative; width: 74px; height: 88px; margin: 0 auto 32px; }
 .chair-mark .seat { position: absolute; top: 10px; left: 8px; width: 58px; height: 10px; border-radius: 50%; background: var(--gold); }
 .chair-mark .leg { position: absolute; top: 18px; width: 4px; height: 64px; background: var(--ink); }
