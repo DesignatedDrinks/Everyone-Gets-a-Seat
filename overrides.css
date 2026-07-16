@@ -1,0 +1,39 @@
+.author-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.author-intro .large-copy {
+  margin-bottom: 0;
+}
+
+.authors-photo {
+  width: 100%;
+  max-width: 420px;
+  margin: 34px 0 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #e9e0d1;
+  box-shadow: 0 20px 45px rgba(29, 23, 14, .14);
+}
+
+.authors-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 900px) {
+  .author-intro {
+    align-items: center;
+    text-align: center;
+  }
+
+  .authors-photo {
+    margin-top: 28px;
+  }
+}
